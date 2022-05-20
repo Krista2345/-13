@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="МатулевскаяПР13.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label x:Name="label1" Text="Жми для вывода четных чисел" HorizontalOptions="Center" FontSize="Small" Padding="50" TextDecorations="Underline" TextColor="Coral"/>
+            <Button Clicked="OnButtonClicked" Text="Вычислить факториал для числа ниже" Padding="20" Margin="20" BackgroundColor="Yellow" TextColor="Black" FontSize="Micro" BorderWidth="2" BorderColor="Coral"/>
+            <Entry x:Name="keyboard" Placeholder="Введите число" Keyboard="Numeric" TextColor="Black"/>
+            <Label x:Name="label2" Text="" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Medium"/>
+            </StackLayout>
+        </ContentPage.Content>
+</ContentPage>
